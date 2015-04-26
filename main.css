@@ -1,0 +1,129 @@
+/* .nav is all the stuff in the header */
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;}
+
+  .nav li {
+    display: inline;
+  }
+
+  /* the rest of the jumbotrons */
+
+  .jumbotron{
+    color: white;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;  /* by setting position:relative on the parent container, you can absolute position elements inside of it  */
+  }
+
+  .jumbotron#index {
+    background-image: url("indexpic.jpg");
+    height: 480px;
+  }
+
+  .jumbotron#whatwedo {
+   background-image:url("whatwedopic.jpg");
+   height: 290px;
+ }
+
+ .jumbotron#careers {
+  background-image:url("careerspic.jpg");
+  height: 290px;
+}
+
+.jumbotron#contact{
+  background-image:url("contactpic.jpg");
+  height: 290px;
+}
+
+#gonnaBeOnTheTop {
+  position:absolute;
+  top: 10%;
+}
+
+#gonnaBeOnTheBottom {
+  position:absolute;
+  bottom: 15%;
+}
+
+.jumbotron h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.jumbotron h3 {
+  font-size: 32px;  
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+
+h1.front {
+ font-size: 200px; 
+ line-height: 95%;
+ text-shadow: 1px 1px 2px #000000;
+}
+
+h2.front {
+  line-height: 0%;
+  font-size: 100px; 
+  text-shadow: 1px 1px 2px #000000; 
+}
+
+h1.other {
+ font-size: 125px; 
+ line-height: 85%;
+ text-shadow: 1px 1px 2px #000000;
+}
+
+h2.other {
+  line-height: 0%;
+  font-size: 60px;  
+  text-shadow: 1px 1px 2px #000000;
+}
+
+/* "learn-more" is all the text at the bottom of the screen on all the pages */
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+}
+
+.learn-more h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+p.big {
+    line-height: 140%;
+}
+
+h4.big {
+    line-height: 230%;
+}
+
+h3.big {
+    line-height: 230%;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+
